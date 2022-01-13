@@ -18,17 +18,20 @@ As mention, the main purpose of this project can conclude as follow:
 * Optimize the weight of the base models to improve the final predictions.
 * The procedure of optimization is necessary or not.
 
-### Methodology
+Methodology
+---
+<p align="center">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_1.jpg">
+</p>
 
+Data Collection and Analysis Result
+---
 
+Conclusion
+---
 
-### Data Collection and Analysis Result
-
-
-### Conclusion
-
-
-### Feature Work 
+Feature Work 
+---
 Tran et al. (2020) had proposed a framework of 
 
 ---
