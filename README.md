@@ -77,7 +77,7 @@ In Table. 4, we compared the improvement percentage of optimization between base
 
 <p align="center">
  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_iterationvs.PNG">
- <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_frontier.PNG">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_frontier1.PNG">
 </p>
 
 As the previous table showed, the performance of model improved with computation resource increased. According the law of diminishing returns, the improvement will not grow without limits, we gave the different iterations to GEM-ITH, the results showed as fig. 4 and fig. 5, when iterations smaller than 100, the improvement is significant and the computation time is affordable, but the computation time need to be considered when iterations bigger than 100. The fig. 6 illustrats the frontier between computation time and improvement.
