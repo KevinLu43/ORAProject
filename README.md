@@ -35,7 +35,7 @@ The origin GEM assumes hyper parameters of each base learner  are tuned with one
 
 On the other hand, the tuning and optimize procedure may need huge computational resource, we take a two stage GEM-ITH model to prevent reduce the computational resource and compare the performance between the origin GEM-ITH medol and two stage GEM-ITH medol. The two stage GEM-ITH model is shown as the figure bellow.
 
-![]()
+![image](https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_3.jpg)
 
 The two stage GEM-ITH
 
