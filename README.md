@@ -47,8 +47,18 @@ The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper paramete
 
 Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method. For base learner, support vector regression (SVR), random forest (RF), gradient boosting machine (GBM) are chosen for comparison.
 
-Data Collection and Analysis Result
+**Data Collection and Analysis Result**
 ---
+#### Data collection
+
+<p align="center">
+   <img src="">
+   <img src="">
+</p>
+
+The dataset we used is an experiment of the accelerated electrical discharge destruction of rotary bearings. The dataset is collected from four accelerometers, three-phase voltage, three-phase current, a rotary encoder, and a torque meter.
+The rotation rate is 1800 revolutions per minute (30 Hz). The vibration amplitude of the bearing is collected from LabVIEW program with sampling frequency 25600 data points per second (25.6kHz). The collection interval is 20 seconds for every 10 minutes. A complete experiment would last 24 to 27 hours, which implies that a complete experiment collects 73 to 83 million
+data points. The detail of data collection is shown as table. 2, Fig. 3 shows the raw data. In order to estimate the RUL, the data points are too big to construct the prediction model, we use the same data preprocessing procedure as Lu and Lee (2021) and have the dataset which obtain 900 observations, 15 independent variables and 1 dependent variable. To prevent the model just fit the specific dataset, we replicate 30 times to verify the method in the project.
 
 Conclusion
 ---
