@@ -29,7 +29,7 @@ The Fig.1 demonstrates the flow chart of Generalized Ensemble Method (GEM) and G
 
 The above formulation is a nonlinear convex optimization problem. As the constraints are linear, computing the Hessian matrix will demonstrate the convexity of the objective function. Hence, since a local optimum of a convex function (objective function) on a convex feasible region (feasible region of the above formulation) is guaranteed to be a global optimum, the optimal solution of this problem is proved to be the global optimal solution (Boyd and Vandenberghe, 2004).
 
-The GEM-ITH algorithm is using  a heuristic based on Bayesian search that aims at finding some candidate hyperparameter values for each base learner and obtain the best weights and hyperparameters combination for the ensemble of all base models. Given *n* iterations of Bayesian optimization, the hyper parameter and combinations for each base learner that has the best performance among the iterations was considered as the optimal combination by GEM-ITH model.
+The GEM-ITH algorithm (Shahhosseini and Pham, 2019) is using  a heuristic based on Bayesian search that aims at finding some candidate hyperparameter values for each base learner and obtain the best weights and hyperparameters combination for the ensemble of all base models. Given *n* iterations of Bayesian optimization, the hyper parameter and combinations for each base learner that has the best performance among the iterations was considered as the optimal combination by GEM-ITH model.
 
 The origin GEM assumes hyper parameters of each base learner  are tuned with one of the many common tuning approaches before conducting the ensemble weighting task. We use the random search as the tuning approach in this project.
 
@@ -41,6 +41,9 @@ On the other hand, the tuning and optimize procedure may need huge computational
 
 The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper parameters at stage one and take the hyper parameters as the initial solution to the stage two and excate the optimize procedure.
 
+
+
+Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method.
 Data Collection and Analysis Result
 ---
 
