@@ -60,6 +60,19 @@ The dataset we used is an experiment of the accelerated electrical discharge des
 The rotation rate is 1800 revolutions per minute (30 Hz). The vibration amplitude of the bearing is collected from LabVIEW program with sampling frequency 25600 data points per second (25.6kHz). The collection interval is 20 seconds for every 10 minutes. A complete experiment would last 24 to 27 hours, which implies that a complete experiment collects 73 to 83 million
 data points. The detail of data collection is shown as table. 2, Fig. 3 shows the raw data. In order to estimate the RUL, the data points are too big to construct the prediction model, we use the same data preprocessing procedure as Lu and Lee (2021) and have the dataset which obtain 900 observations, 15 independent variables and 1 dependent variable. To prevent the model just fit the specific dataset, we replicate 30 times to verify the method in the project.
 
+#### Analysis Result
+
+<p align="center">
+   <img src="">
+   <img src="">
+</p>
+
+Table. 3 illustrates the average performance of each model in 30 testing datasets. The GEM-ITH here is the two stage GEM-ITH model, the result shows that the GEM-ITH can have the best performance but need  a bunch of computation resource.
+
+In Table. 4, we compared the improvement percentage of optimization between base learners, the results illstrate the great improvement on every metrics after tuned hyper parameters of base learners. Table. 5 compared the performance of ensemble method and the progressive of using GEM and GEM-ITH. When GEM-ITH with initial solution, the computation time have remarkable reduction.
+
+As the previous table showed, the performance of model improved with computation resource increased. According the law of diminishing returns, the improvement will not grow without limits, we gave the different iterations to GEM-ITH, the results showed as fig. 4 and fig. 5, when iterations smaller than 100, the improvement is significant and the computation time is affordable, but the computation time need to be considered when iterations bigger than 100. The fig. 6 illustrats the frontier between computation time and improvement.
+
 Conclusion
 ---
 
