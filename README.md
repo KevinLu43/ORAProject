@@ -42,7 +42,7 @@ On the other hand, the tuning and optimize procedure may need huge computational
 The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper parameters at stage one and take the hyper parameters as the initial solution to the stage two and excate the optimize procedure.
 
 <p align="center">
-   <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_hpsetting.PNG">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_hpsetting.PNG">
 </p>
 
 Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method. For base learner, support vector regression (SVR), random forest (RF), gradient boosting machine (GBM) are chosen for comparison.
@@ -52,8 +52,8 @@ Table. 1 shows the hyper parameter of machine learning model which were widely u
 #### Data collection
 
 <p align="center">
-   <img src="">
-   <img src="">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_DatasetDetail.PNG">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_RawData.png">
 </p>
 
 The dataset we used is an experiment of the accelerated electrical discharge destruction of rotary bearings. The dataset is collected from four accelerometers, three-phase voltage, three-phase current, a rotary encoder, and a torque meter.
@@ -63,13 +63,22 @@ data points. The detail of data collection is shown as table. 2, Fig. 3 shows th
 #### Analysis Result
 
 <p align="center">
-   <img src="">
-   <img src="">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_thebest.PNG">
 </p>
 
 Table. 3 illustrates the average performance of each model in 30 testing datasets. The GEM-ITH here is the two stage GEM-ITH model, the result shows that the GEM-ITH can have the best performance but need  a bunch of computation resource.
 
+<p align="center">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_basemodel.PNG">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_ensemblemodel.PNG">
+</p>
+
 In Table. 4, we compared the improvement percentage of optimization between base learners, the results illstrate the great improvement on every metrics after tuned hyper parameters of base learners. Table. 5 compared the performance of ensemble method and the progressive of using GEM and GEM-ITH. When GEM-ITH with initial solution, the computation time have remarkable reduction.
+
+<p align="center">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_iterationvs.PNG">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_frontier.PNG">
+</p>
 
 As the previous table showed, the performance of model improved with computation resource increased. According the law of diminishing returns, the improvement will not grow without limits, we gave the different iterations to GEM-ITH, the results showed as fig. 4 and fig. 5, when iterations smaller than 100, the improvement is significant and the computation time is affordable, but the computation time need to be considered when iterations bigger than 100. The fig. 6 illustrats the frontier between computation time and improvement.
 
