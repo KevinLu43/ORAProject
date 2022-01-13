@@ -23,7 +23,7 @@ Methodology
 <p align="center">
   <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_1.jpg">
 </p>
-The figure demonstrates the flow chart of Generalized Ensemble Method (GEM) and Generalized Weighted Ensemble with Internally Tuned Hyperparameters (GEM–ITH).The GEM was proposed to find the best combination of base learners by Perrone and Cooper (1992). It minimizes the total  mean square error (MSE) to optimize the weight of each base learner. The fomulation is shown as bellow:
+The Fig.1 demonstrates the flow chart of Generalized Ensemble Method (GEM) and Generalized Weighted Ensemble with Internally Tuned Hyperparameters (GEM–ITH).The GEM was proposed to find the best combination of base learners by Perrone and Cooper (1992). It minimizes the total  mean square error (MSE) to optimize the weight of each base learner. The fomulation is shown as bellow:
 
 ![image](https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_2.JPG)
 
@@ -35,7 +35,9 @@ The origin GEM assumes hyper parameters of each base learner  are tuned with one
 
 On the other hand, the tuning and optimize procedure may need huge computational resource, we take a two stage GEM-ITH model to prevent reduce the computational resource and compare the performance between the origin GEM-ITH medol and two stage GEM-ITH medol. The two stage GEM-ITH model is shown as the figure bellow.
 
-![image](https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_GEMITH2.png)
+<p align="center">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_GEMITH2.PNG">
+</p>
 
 The two stage GEM-ITH
 
