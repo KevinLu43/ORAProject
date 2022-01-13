@@ -31,6 +31,8 @@ The above formulation is a nonlinear convex optimization problem. As the constra
 
 The GEM-ITH algorithm is using  a heuristic based on Bayesian search that aims at finding some candidate hyperparameter values for each base learner and obtain the best weights and hyperparameters combination for the ensemble of all base models. Given *n* iterations of Bayesian optimization, the hyper parameter and combinations for each base learner that has the best performance among the iterations was considered as the optimal combination by GEM-ITH model.
 
+The origin GEM assumes hyper parameters of each base learner  are tuned with one of the many common tuning approaches before conducting the ensemble weighting task. We use the random search as the tuning approach in this project.
+
 Data Collection and Analysis Result
 ---
 
