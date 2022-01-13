@@ -39,7 +39,7 @@ On the other hand, the tuning and optimize procedure may need huge computational
   <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_GEMITH2.PNG">
 </p>
 
-The two stage GEM-ITH
+The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper parameters at stage one and take the hyper parameters as the initial solution to the stage two and excate the optimize procedure.
 
 Data Collection and Analysis Result
 ---
