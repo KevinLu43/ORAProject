@@ -23,7 +23,11 @@ Methodology
 <p align="center">
   <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_1.jpg">
 </p>
+The Fig.1 demonstrates the flow chart of Generalized Ensemble Method (GEM) and Generalized Weighted Ensemble with Internally Tuned Hyperparameters (GEM–ITH).The GEM was proposed to find the best combination of base learners by Perrone and Cooper (1992). It minimizes the total  mean square error (MSE) to optimize the weight of each base learner. The fomulation is shown as bellow:
 
+![image](https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_2.JPG)
+
+The above formulation is a nonlinear convex optimization problem. As the constraints are linear, computing the Hessian matrix will demonstrate the convexity of the objective function. Hence, since a local optimum of a convex function (objective function) on a convex feasible region (feasible region of the above formulation) is guaranteed to be a global optimum, the optimal solution of this problem is proved to be the global optimal solution (Boyd and Vandenberghe, 2004)
 
 Data Collection and Analysis Result
 ---
@@ -39,8 +43,11 @@ Tran et al. (2020) had proposed a framework of
 
 Reference
 ---
-- Tran, N., Schneider, J. G., Weber, I., & Qin, A. K. Hyper-parameter optimization in classification: To-do or not-to-do. Pattern Recognition, 103, 107245, 2020.
-- Yang, L., & Shami, A. On hyperparameter optimization of machine learning algorithms: Theory and practice. Neurocomputing, 415, 295-316, 2020.
-- Shahhosseini, M., Hu, G., & Pham, H. Optimizing ensemble weights and hyperparameters of machine learning models for regression problems. arXiv preprint arXiv:1908.05287, 2019.
-- Lu, H. W., & Lee, C. Y. Kernel-Based Dynamic Ensemble Technique for Remaining Useful Life Prediction. IEEE Robotics and Automation Letters, 2021.
+* Boyd, S., & Vandenberghe, L. Convex optimization: Cambridge university press, 2004.
+* Hastie, T., Tibshirani, R., Friedman, J., & Franklin, J. The elements of statistical learning: data mining, inference and prediction. The Mathematical Intelligencer, 27(2), 83-85, 2005.
+* Lu, H. W., & Lee, C. Y. Kernel-Based Dynamic Ensemble Technique for Remaining Useful Life Prediction. IEEE Robotics and Automation Letters, 2021.
+* Perrone, M. P., & Cooper, L. N. When networks disagree: Ensemble methods for hybrid neural networks: BROWN UNIV PROVIDENCE RI INST FOR BRAIN AND NEURAL SYSTEMS, 1992.
+* Shahhosseini, M., Hu, G., & Pham, H. Optimizing ensemble weights and hyperparameters of machine learning models for regression problems. arXiv preprint arXiv:1908.05287, 2019.
+* Tran, N., Schneider, J. G., Weber, I., & Qin, A. K. Hyper-parameter optimization in classification: To-do or not-to-do. Pattern Recognition, 103, 107245, 2020.
+* Yang, L., & Shami, A. On hyperparameter optimization of machine learning algorithms: Theory and practice. Neurocomputing, 415, 295-316, 2020.
 
