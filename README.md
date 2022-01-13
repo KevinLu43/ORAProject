@@ -1,6 +1,7 @@
-# Optimizing Ensemble Weights and Hyper Parameters of Machine Learning Models
+Optimizing Ensemble Weights and Hyper Parameters of Machine Learning Models
+===
 
-This project is for Operations Research Applications and Implementation.
+This project is for Operations Research Applications and Implementation, IMIS, NCKU.
 
 ## Background and Motivation
 
