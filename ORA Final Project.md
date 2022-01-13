@@ -24,11 +24,9 @@ Methodology
 The Fig.1 demonstrates the flow chart of Generalized Ensemble Method (GEM) and Generalized Weighted Ensemble with Internally Tuned Hyperparameters (GEM–ITH).
 
 The GEM was proposed to find the best combination of base learners by Perrone and Cooper (1992). It minimizes the total  mean square error (MSE) to optimize the weight of each base learner. The fomulation is shown as bellow:
-$$ Min\ MSE(w_1\hat{Y}_1 + w_2\hat{Y}_2 + ... + w_k\hat{Y}_k,\ Y) \\ 
-s.t.\ \sum_{i=1}^k w_i = 1, \\
-\qquad \qquad \qquad w_i \geq 0, \ \forall i=1, ... , k $$
 
-where $w_i$ is the weights corresponding to base learner $i$, $\hat{Y}_i$ represents the predictions of base learner $i$ and $Y$ is the true value.
+
+
 
 
 Based on bias-variance decomposition (Hastie et al. 2005) the above definitions for bias and variance can be aggregated to the following:
