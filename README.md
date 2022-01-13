@@ -41,9 +41,12 @@ On the other hand, the tuning and optimize procedure may need huge computational
 
 The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper parameters at stage one and take the hyper parameters as the initial solution to the stage two and excate the optimize procedure.
 
-
+<p align="center">
+   <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_hpsetting.PNG">
+</p>
 
 Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method.
+
 Data Collection and Analysis Result
 ---
 
