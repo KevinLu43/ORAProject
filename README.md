@@ -21,7 +21,7 @@ As mention, the main purpose of this project can conclude as follow:
 Methodology
 ---
 <p align="center">
-  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_1.jpg">
+  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_PIC_GEMITH.PNG">
 </p>
 The Fig.1 demonstrates the flow chart of Generalized Ensemble Method (GEM) and Generalized Weighted Ensemble with Internally Tuned Hyperparameters (GEM–ITH).The GEM was proposed to find the best combination of base learners by Perrone and Cooper (1992). It minimizes the total  mean square error (MSE) to optimize the weight of each base learner. The fomulation is shown as bellow:
 
