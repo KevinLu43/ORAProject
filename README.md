@@ -33,6 +33,12 @@ The GEM-ITH algorithm is using  a heuristic based on Bayesian search that aims a
 
 The origin GEM assumes hyper parameters of each base learner  are tuned with one of the many common tuning approaches before conducting the ensemble weighting task. We use the random search as the tuning approach in this project.
 
+On the other hand, the tuning and optimize procedure may need huge computational resource, we take a two stage GEM-ITH model to prevent reduce the computational resource and compare the performance between the origin GEM-ITH medol and two stage GEM-ITH medol. The two stage GEM-ITH model is shown as the figure bellow.
+
+![]()
+
+The two stage GEM-ITH
+
 Data Collection and Analysis Result
 ---
 
