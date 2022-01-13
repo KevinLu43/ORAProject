@@ -45,7 +45,7 @@ The two stage GEM-ITH integrate the GEM and GEM-ITH, we tuned the hyper paramete
    <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_hpsetting.PNG">
 </p>
 
-Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method.
+Table. 1 shows the hyper parameter of machine learning model which were widely used recently and the setting of these models in GEM-ITH method. For base learner, support vector regression (SVR), random forest (RF), gradient boosting machine (GBM) are chosen for comparison.
 
 Data Collection and Analysis Result
 ---
