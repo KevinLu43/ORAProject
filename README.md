@@ -80,16 +80,26 @@ In Table. 4, we compared the improvement percentage of optimization between base
  <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_frontier1.PNG">
 </p>
 
-As the previous table showed, the performance of model improved with computation resource increased. According the law of diminishing returns, the improvement will not grow without limits, we gave the different iterations to GEM-ITH, the results showed as fig. 4 and fig. 5, when iterations smaller than 100, the improvement is significant and the computation time is affordable, but the computation time need to be considered when iterations bigger than 100. The fig. 6 illustrats the frontier between computation time and improvement.
+As the previous table showed, the performance of model improved with computation resource increased. According the law of diminishing returns, the improvement will not grow without limits, we gave the different iterations to GEM-ITH, the results showed as fig. 4 and fig. 5, when iterations smaller than 100, the improvement is significant and the computation time is affordable, but the computation time need to be considered when iterations bigger than 100. The fig. 6 illustrats the frontier between computation time and improvement. The hyper parameter comparison is shown as following table, the results show that the best hyper parameter are not the same when we use different method, but the performance may not have significant difference.
 
-Conclusion
+<p align="center">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_hyper1.png">
+</p>
+
+**Conclusion**
 ---
 
-Feature Work 
----
-Tran et al. (2020) had proposed a framework of 
+In conclusion, optimizing ensemble weights and hyper parameters can improve the performance in this case, but the optimizing process highly demanding computational cost. Therefore, we compared the computation time and the improvement, the frontier can help us to estimate the cost of computation resource whice are affordable. 
+On the other hand, when give the initial solution can reduce the computation time in this case, and improve the performance, this can help us get the acceptable solution in limited computation resource.
 
+**Feature Work**
 ---
+
+Tran et al. (2020) have proposed a framework to address the problem of whether one should apply hyper parameter optimization or use the default hyper parameter settings for traditional classification algorithms, the framework is shown as following figure, the work in this project is in the red box, we are considering to follow the whole framework in the feature.
+
+<p align="center">
+ <img src="https://github.com/KevinLu43/ORAProject/blob/main/picture/ORA_feature.PNG">
+</p>
 
 Reference
 ---
